@@ -1,0 +1,19 @@
+﻿Build started 6/19/2016 8:04:41 PM.
+     1>Project "C:\Users\andrew\Desktop\Ranarrr-ranlux-0d9e38430eb1\ranlux\ranlux.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\andrew\Desktop\Ranarrr-ranlux-0d9e38430eb1\Debug\binary.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\andrew\Desktop\Ranarrr-ranlux-0d9e38430eb1\Debug\binary.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\andrew\Desktop\Ranarrr-ranlux-0d9e38430eb1\Debug\binary.lib" /MACHINE:X86 /SAFESEH /DLL Debug\draw.obj
+         Debug\createmove.obj
+         Debug\hooks.obj
+         Debug\main.obj
+         Debug\painttraverse.obj
+         Debug\interfaces.obj
+         Debug\netvar.obj
+         Debug\offsets.obj
+         Debug\utility.obj
+     1>offsets.obj : error LNK2019: unresolved external symbol "public: unsigned int __thiscall utility::findpattern<unsigned int>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,char const *)" (??$findpattern@I@utility@@QAEIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD@Z) referenced in function "public: void __thiscall offsets::setup(void)" (?setup@offsets@@QAEXXZ)
+     1>C:\Users\andrew\Desktop\Ranarrr-ranlux-0d9e38430eb1\Debug\binary.dll : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\andrew\Desktop\Ranarrr-ranlux-0d9e38430eb1\ranlux\ranlux.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.94

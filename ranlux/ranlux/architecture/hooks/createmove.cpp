@@ -30,14 +30,6 @@ bool __fastcall createmove::hkcreatemove( void *ecx, int edx, float frametime, C
 	if( cmd->buttons&IN_JUMP ) // bhop
 		if( !( localplayer->flags() & FL_ONGROUND ) )
 			cmd->buttons &= ~IN_JUMP;
-
-	if (cmd->buttons&IN_JUMP)
-		if (!(localplayer->flags() & FL_ONGROUND))
-			if (cmd->mousedx < 0)
-				cmd->sidemove = -450.0f;
-			if (cmd->mousedx > 0)
-				cmd->sidemove = 450.0f;
-
-
+	
 	return false;
 }

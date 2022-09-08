@@ -1,9 +1,7 @@
-#include "main.hpp" // i do .hpp, because this is the correct extension for c++.
+#include "main.
 
-// here's where im going to put all my global objects, stated as such: FUCKING PARKINSONS
 // IVEngine *g_pEngine;
 
-// now it should work.
 namespace globals {
 	uintptr_t				clientmodule;
 	ibaseclient				*client;

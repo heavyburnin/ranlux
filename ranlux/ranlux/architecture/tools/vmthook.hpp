@@ -8,8 +8,8 @@
 #include "../main.hpp"
 #include "FOI.hpp"
 
-// credits: Casual_Hacker, modified & commented (some of it) by Ranarrr
-namespace vmthook {
+// credits: Casual_Hacker, modified & commented (some of it) by heavyburnin 
+namespace vmthook {u
 	//----------------------------------------------------------------
 	// Class: VMTManager
 	//----------------------------------------------------------------
